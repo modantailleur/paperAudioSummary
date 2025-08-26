@@ -85,26 +85,18 @@ python get_thirdo_summary.py /path/to/embeddings.h5 /path/to/clusters.csv /path/
 ```
 
 
-## Generate accompanying video for your summary
+## Generate accompanying video for your audio skim
 
-Generate a clock for your summary in "./video/" using:
+Generate a clock for your audio skim in "./summaries_audiovisual/video/" using:
 
 ```
-python3 ./audiovisual_summary/create_audiovisual_summary_clock.py
+python3 ./summaries_audiovisual/create_audiovisual_summary_clock.py -i /path/to/input/audio.wav
 ```
 
 Generate a dynamic audio-visual summary in "./video/" using:
 
 ```
-python3 ./audiovisual_summary/create_audiovisual_summary.py
-```
-
-## Paper's results replication
-
-Unfortunately, for privacy reasons, the main audio files from the dataset of the paper are not put online. Nonetheless, we put online the code and outputs from our two objective metrics faithfulness and scenism used. To replicate the figures from those two metrics, use:
-
-```
-python3 plot_objective_eval.py
+python3 ./audiovisual_summary/create_audiovisual_summary.py -i /path/to/input/audio.wav
 ```
 
 ## References
