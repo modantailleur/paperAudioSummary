@@ -1,3 +1,9 @@
+# ⚠️ **Warning**
+ This repository is an **old version** that is kept **to avoid broken links in my PhD manuscript**.
+  
+ The **actively maintained and up-to-date repository** is now available at:  
+ 👉 https://github.com/modantailleur/skimear
+
 # Audio Skim Generation for Environmental Audio Recordings
 
 This is the code for our paper "Audio Skim Generation for Environmental Audio Recordings". 
